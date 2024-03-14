@@ -8,7 +8,7 @@ with st.sidebar:
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
     st.subheader("Based on Streamlit LLM Examples")
     st.subheader("")
-    st.subheader("AIvigorate")
+    st.subheader("Aquib Moin @ AIvigorate")
     st.subheader("")
     "[Back to AIvigorate.ai](http://www.aivigorate.ai/)"
 

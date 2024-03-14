@@ -6,6 +6,11 @@ st.title("🦜🔗 Langchain Quickstart App")
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+    st.subheader("Based on Streamlit LLM Examples")
+    st.subheader("")
+    st.subheader("Aquib Moin @ AIvigorate")
+    st.subheader("")
+    "[Back to AIvigorate.ai](http://www.aivigorate.ai/)"
 
 
 def generate_response(input_text):

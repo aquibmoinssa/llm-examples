@@ -6,6 +6,14 @@ st.title("🦜🔗 Langchain - Blog Outline Generator App")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
+with st.sidebar:
+    st.subheader("Based on Streamlit LLM Examples")
+    st.subheader("")
+    st.subheader("Aquib Moin @ AIvigorate")
+    st.subheader("")
+    "[Back to AIvigorate.ai](http://www.aivigorate.ai/)"
+
+
 
 def blog_outline(topic):
     # Instantiate LLM model
