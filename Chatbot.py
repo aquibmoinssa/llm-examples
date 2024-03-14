@@ -4,12 +4,17 @@ import streamlit as st
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
+    "[View the source code](https://github.com/aquibmoinssa/llm-examples)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
-    st.subheader("This is Aquib Moin")
+    st.subheader("Based on Streamlit LLM Examples")
+    st.subheader("")
+    st.subheader("AIvigorate")
+    st.subheader("")
+    "[Back to AIvigorate.ai](http://www.aivigorate.ai/)"
 
-st.title("💬 Chatbot")
-st.caption("🚀 A streamlit chatbot powered by OpenAI LLM")
+
+st.title("Chatbot")
+st.caption("Streamlit Chatbot implementation powered by OpenAI LLM")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
 
