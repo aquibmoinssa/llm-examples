@@ -3,8 +3,6 @@ import anthropic
 
 with st.sidebar:
     anthropic_api_key = st.text_input("Anthropic API Key", key="file_qa_api_key", type="password")
-    "[View the source code](https://github.com/aquibmoinssa/llm-examples)"
-    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
     st.subheader("Based on Streamlit LLM Examples")
     st.subheader("")
     st.subheader("Aquib Moin @ AIvigorate")
